@@ -1,0 +1,27 @@
+body {
+    background-color: #e6f7ff; /* Light blue background */
+    font-family: 'Press Start 2P', cursive; /* Videogame-style font */
+    color: #333; /* Dark text color */
+}
+
+h1, h2 {
+    color: #26547c; /* Dark blue heading color */
+}
+
+a {
+    color: #9933ff; /* Purple link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+hr {
+    border: 1px solid #9933ff; /* Purple horizontal rule */
+}
+
+/* Colorful text */
+span.blue { color: #26547c; }
+span.light-blue { color: #66b2ff; }
+span.purple { color: #9933ff; }

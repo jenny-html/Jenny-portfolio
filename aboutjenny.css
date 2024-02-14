@@ -1,0 +1,46 @@
+body {
+    background-color: #f0f5f5; /* Light blue background */
+    font-family: 'Press Start 2P', cursive; /* Videogame-style font */
+    color: #333; /* Dark text color */
+}
+
+h1, h2 {
+    color: #26547c; /* Dark blue heading color */
+}
+
+h2 {
+    border-bottom: 2px solid #ff66b2; /* Pink underline for h2 */
+    padding-bottom: 5px;
+}
+
+p {
+    color: #555; /* Slightly darker text color */
+}
+
+hr {
+    border: 1px solid #26547c; /* Dark blue horizontal rule */
+}
+
+/* Animated character */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.character {
+    display: inline-block;
+    margin-top: 20px;
+    animation: bounce 2s infinite;
+}
+
+/* Colorful text */
+span.blue { color: #26547c; }
+span.light-blue { color: #66b2ff; }
+span.pink { color: #ff66b2; }
